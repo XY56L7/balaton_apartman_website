@@ -182,8 +182,8 @@ export interface Translations {
 export const translations: Record<Language, Translations> = {
   hu: {
     header: {
-      logo: 'LAKE SPIRIT',
-      subtitle: 'Balaton',
+      logo: 'BALATON KINCSE',
+      subtitle: 'Luxus Apartmanok',
       navigation: {
         apartments: 'Apartmanok',
         services: 'Szolgáltatások',
@@ -202,7 +202,7 @@ export const translations: Record<Language, Translations> = {
     },
     about: {
       title: 'Fedezze fel ötcsillagos prémium panzióinkat a Balatonon!',
-      description: 'Amikor létrehoztuk a **Lake Spirit**-et, célunk egy olyan hely tervezése volt, ahol a **vendégközpontú vendéglátás és a minőség** egyesül egy felejthetetlen nyaralási és pihenési élményért. Olyan panziót képzeltünk el, ahol a nyugalom, a stílus és az elegancia kéz a kézben járnak – ahol vendégeink igazán otthon érzik magukat. Luxus apartmanok **innovatív megoldásokkal**.',
+      description: 'Amikor létrehoztuk a **Balaton Kincse**-t, célunk egy olyan hely tervezése volt, ahol a **vendégközpontú vendéglátás és a minőség** egyesül egy felejthetetlen nyaralási és pihenési élményért. Olyan panziót képzeltünk el, ahol a nyugalom, a stílus és az elegancia kéz a kézben járnak – ahol vendégeink igazán otthon érzik magukat. Luxus apartmanok **innovatív megoldásokkal**.',
       bestPrice: 'Legjobb ár garancia',
       bestPriceSubtitle: 'Foglalja nyaralását a Balatonon weboldalunkon keresztül',
       checkDates: 'ELLENŐRZÖM A SZABAD DÁTUMOKAT!',
@@ -230,7 +230,7 @@ export const translations: Record<Language, Translations> = {
       findOutMore: 'TUDJON MEG TÖBBET SZOLGÁLTATÁSAINKRÓL!',
     },
     lifestyle: {
-      title: 'Élje meg a Lake Spirit életstílust!',
+      title: 'Élje meg a Balaton Kincse életstílust!',
     },
     reviews: {
       title: 'Vendég vélemény',
@@ -243,7 +243,7 @@ export const translations: Record<Language, Translations> = {
       address: 'Cím:',
     },
     chat: {
-      title: 'Lake Spirit Chat',
+      title: 'Balaton Kincse Chat',
       subtitle: 'Online segítség',
       welcome: 'Üdvözlöm! Miben segíthetek?',
       placeholder: 'Írjon üzenetet...',
@@ -255,7 +255,7 @@ export const translations: Record<Language, Translations> = {
       autoReplies: {
         booking: 'Foglalásunkat a Booking.com oldalon keresztül teheti meg. Szeretné, hogy átirányítsam?',
         prices: 'Áraink 2024-ben: 1-2 fő: 15.000 Ft/éj, 3-4 fő: 20.000 Ft/éj, 5-6 fő: 25.000 Ft/éj. Minimum 2 éjszaka foglalás.',
-        contact: 'Telefon: +36 30 123 4567, Email: info@lakespirit.hu. Mikor szeretne beszélni?',
+        contact: 'Telefon: +36 30 123 4567, Email: info@balatonkincse.hu. Mikor szeretne beszélni?',
         default: 'Köszönöm az üzenetet! Hamarosan válaszolok részletesen. Szeretne foglalni vagy árakat kérdezni?',
       },
     },
@@ -355,13 +355,13 @@ export const translations: Record<Language, Translations> = {
       houseRules: 'HÁZIREND',
       gdpr: 'GDPR',
       gtc: 'ÁSZF',
-      copyright: '© Copyright - Lake Spirit Balaton',
+      copyright: '© Copyright - Balaton Kincse',
     },
   },
   en: {
     header: {
-      logo: 'LAKE SPIRIT',
-      subtitle: 'Balaton',
+      logo: 'BALATON KINCSE',
+      subtitle: 'Luxury Apartments',
       navigation: {
         apartments: 'Apartments',
         services: 'Services',
@@ -380,7 +380,7 @@ export const translations: Record<Language, Translations> = {
     },
     about: {
       title: 'Discover our five-star premium guesthouse at Lake Balaton!',
-      description: 'When we created **Lake Spirit**, our goal was to design a place where **guest-centric hospitality and quality** come together for an unforgettable holiday and relaxation experience. We envisioned a guesthouse where tranquillity, style, and elegance go hand in hand—where our guests feel truly at home. Luxury apartments with **innovative solutions**.',
+      description: 'When we created **Balaton Kincse**, our goal was to design a place where **guest-centric hospitality and quality** come together for an unforgettable holiday and relaxation experience. We envisioned a guesthouse where tranquillity, style, and elegance go hand in hand—where our guests feel truly at home. Luxury apartments with **innovative solutions**.',
       bestPrice: 'Best price guarantee',
       bestPriceSubtitle: 'Book your holiday in Balaton through our website',
       checkDates: 'I\'LL CHECK THE AVAILABLE DATES!',
@@ -408,7 +408,7 @@ export const translations: Record<Language, Translations> = {
       findOutMore: 'FIND OUT MORE ABOUT OUR SERVICES!',
     },
     lifestyle: {
-      title: 'Experience the Lake Spirit lifestyle!',
+      title: 'Experience the Balaton Kincse lifestyle!',
     },
     reviews: {
       title: 'Guest review',
@@ -421,7 +421,7 @@ export const translations: Record<Language, Translations> = {
       address: 'Address:',
     },
     chat: {
-      title: 'Lake Spirit Chat',
+      title: 'Balaton Kincse Chat',
       subtitle: 'Online help',
       welcome: 'Hello! How can I help you?',
       placeholder: 'Type your message...',
@@ -433,7 +433,7 @@ export const translations: Record<Language, Translations> = {
       autoReplies: {
         booking: 'You can make your reservation through Booking.com. Would you like me to redirect you?',
         prices: 'Our prices in 2024: 1-2 people: 15,000 Ft/night, 3-4 people: 20,000 Ft/night, 5-6 people: 25,000 Ft/night. Minimum 2 nights booking.',
-        contact: 'Phone: +36 30 123 4567, Email: info@lakespirit.hu. When would you like to talk?',
+        contact: 'Phone: +36 30 123 4567, Email: info@balatonkincse.hu. When would you like to talk?',
         default: 'Thank you for your message! I will respond in detail soon. Would you like to book or ask about prices?',
       },
     },
@@ -533,7 +533,7 @@ export const translations: Record<Language, Translations> = {
       houseRules: 'HOUSE RULES',
       gdpr: 'GDPR',
       gtc: 'GTC',
-      copyright: '© Copyright - Lake Spirit Balaton',
+      copyright: '© Copyright - Balaton Kincse',
     },
   },
 }; 

@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">CONTACT</h4>
             <div className="space-y-2 text-sm">
-              <p>info@lakespirit.hu</p>
+              <p>info@balatonkincse.hu</p>
               <p>+36 30 154 5644</p>
               <p>8220 Balatonalmádi Vízmeder street 7.</p>
             </div>
@@ -32,8 +32,8 @@ export default function Footer() {
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
               <div className="mb-6 lg:mb-0">
                 <div className="flex items-center mb-4">
-                  <h3 className="text-2xl font-bold text-blue-300">LAKE SPIRIT</h3>
-                  <span className="text-sm text-blue-200 ml-2 font-serif">Balaton</span>
+                  <h3 className="text-2xl font-bold text-blue-300">BALATON KINCSE</h3>
+                  <span className="text-sm text-blue-200 ml-2 font-serif">Luxus Apartmanok</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <span className="text-sm">🐟</span>
@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="border-t border-blue-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-blue-200">
-              © Copyright - Lake Spirit Balaton
+              © Copyright - Balaton Kincse
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-blue-200 hover:text-white transition-colors">

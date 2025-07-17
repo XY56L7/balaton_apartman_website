@@ -14,7 +14,6 @@ interface TrustBadge {
 }
 
 const TrustBadges = () => {
-  const { t } = useLanguage();
 
   const trustBadges: TrustBadge[] = [
     {

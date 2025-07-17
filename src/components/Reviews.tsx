@@ -6,7 +6,6 @@ import TestimonialCarousel from './TestimonialCarousel';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Reviews() {
-  const { t } = useLanguage();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,

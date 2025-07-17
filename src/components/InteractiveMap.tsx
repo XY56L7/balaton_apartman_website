@@ -146,13 +146,13 @@ const InteractiveMap = () => {
           </div>
         </div>
         
-        {/* Lake Spirit Location Marker */}
+        {/* Balaton Kincse Location Marker */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className="bg-red-500 text-white rounded-full p-2 shadow-lg">
             <Heart size={16} />
           </div>
           <div className="bg-white px-2 py-1 rounded text-xs font-medium shadow mt-1">
-            Lake Spirit
+            Balaton Kincse
           </div>
         </div>
       </div>

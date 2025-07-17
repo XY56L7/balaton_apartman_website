@@ -110,7 +110,7 @@ const WeatherWidget = () => {
     const interval = setInterval(fetchWeather, 10 * 60 * 1000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [fetchWeather]);
 
   if (loading) {
     return (

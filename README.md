@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Balaton Kincse - Luxus Apartmanok
 
-## Getting Started
+Modern, reszponzív weboldal a Balaton Kincse luxus apartmanokhoz. Next.js 15, TypeScript és Tailwind CSS használatával készült.
 
-First, run the development server:
+## 🏆 Funkciók
+
+- **Modern Design**: Reszponzív, animált felület
+- **Kétnyelvű**: Magyar és angol nyelvű támogatás
+- **Időjárás Widget**: Valós idejű Fonyód időjárás
+- **Interaktív Térkép**: Balaton környéki látnivalók
+- **Chat Widget**: Online segítség és foglalás
+- **Social Proof**: Vendég vélemények, biztonsági tanúsítványok
+- **FAQ Rendszer**: Gyakori kérdések és válaszok
+
+## 🚀 Telepítés
 
 ```bash
+# Függőségek telepítése
+npm install
+
+# Fejlesztői szerver indítása
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build készítése
+npm run build
+
+# Production szerver indítása
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Vercel (Ajánlott)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **GitHub Repository**: Töltsd fel a kódot GitHub-ra
+2. **Vercel Import**: Importáld a projektet Vercel-en
+3. **Environment Variables**: Állítsd be az OpenWeatherMap API kulcsot
+4. **Deploy**: Automatikus deployment
 
-## Learn More
+### Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Hozz létre egy `.env.local` fájlt:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Technológiai Stack
 
-## Deploy on Vercel
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Reszponzív Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Mobil-optimalizált
+- Tablet támogatás
+- Desktop élmény
+- Touch-friendly interakciók
+
+## 🔧 Konfiguráció
+
+A projekt konfigurációja optimalizálva van a Vercel deployment-hez:
+
+- ESLint hibák figyelmen kívül hagyása build során
+- TypeScript hibák figyelmen kívül hagyása
+- Optimalizált build folyamat
+
+## 📞 Kapcsolat
+
+- **Email**: info@balatonkincse.hu
+- **Telefon**: +36 30 154 5644
+- **Cím**: 8220 Balatonalmádi Vízmeder street 7.
+
+## 📄 Licenc
+
+© Copyright - Balaton Kincse

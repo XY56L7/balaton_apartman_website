@@ -17,7 +17,6 @@ interface Testimonial {
 }
 
 const TestimonialCarousel = () => {
-  const { t } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
@@ -83,7 +82,7 @@ const TestimonialCarousel = () => {
   useEffect(() => {
     const timer = setInterval(nextSlide, 5000);
     return () => clearInterval(timer);
-  }, [currentIndex]);
+  }, [currentIndex, nextSlide]);
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
@@ -118,7 +117,7 @@ const TestimonialCarousel = () => {
                 {renderStars(testimonials[currentIndex].rating)}
               </div>
               <p className="text-lg md:text-xl text-gray-700 italic leading-relaxed mb-6">
-                "{testimonials[currentIndex].text}"
+                &ldquo;{testimonials[currentIndex].text}&rdquo;
               </p>
             </div>
 
